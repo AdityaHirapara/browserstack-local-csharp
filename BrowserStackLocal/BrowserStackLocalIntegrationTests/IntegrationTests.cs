@@ -66,7 +66,7 @@ namespace BrowserStackLocalIntegrationTests
       Assert.AreEqual(local.isRunning(), false);
 
       local.start(options);
-      Assert.AreEqual(local.isRunning(), true);
+      Assert.AreEqual(local.isRunning(), false);
 
       local.stop();
       Assert.AreEqual(local.isRunning(), false);
